@@ -1,3 +1,6 @@
+# Fork Info
+This fork is made to output data in the same format as [Valence's extractor mod](https://github.com/valence-rs/valence/tree/main/extractor) in hopes that it can replace the mod one day.
+
 # Burger
 Burger is a "framework" for automatically extracting data
 from the Minecraft game for the purpose of writing the protocol
