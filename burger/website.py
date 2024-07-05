@@ -105,3 +105,6 @@ def client_jar(version, verbose):
 def latest_client_jar(verbose):
     manifest = get_version_manifest()
     return client_jar(manifest["latest"]["snapshot"], verbose)
+
+def get_mappings(version, verbose):
+    return six.moves.urllib.request.urlopen(get_version_meta(version, verbose)["downloads"]["server_mappings"]["url"]).read().decode()

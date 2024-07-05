@@ -4,6 +4,7 @@
 *.swp
 test.py
 build/
+output/
 
 *.java
 *.bat
